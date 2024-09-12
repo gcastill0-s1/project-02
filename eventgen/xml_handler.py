@@ -132,21 +132,3 @@ def process_json_input(json_data):
             raise ValueError(f"Invalid JSON string: {e}")
     
     return json_data
-
-# # Path to the audit log file
-# file_path = "audit_log.txt"
-
-# # Parse the audit log file and convert it to JSON
-
-# json_string = parse_audit_log(file_path)
-
-# # Load the JSON data
-# json_data = process_json_input(json_string)
-# json_record = random.choice(json_data)
-
-# # Convert JSON to XML
-# xml_root = json_to_xml(json_record)
-
-# # print(xml_root)
-# pretty_xml = prettify_xml(xml_root)
-# print(pretty_xml)
